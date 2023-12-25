@@ -67,8 +67,6 @@ The core concept of Simulated Annealing is the analogy of heating a material to 
 This cooling process is controlled by a parameter known as the "temperature," which systematically decreases over time according to a predefined schedule. High temperatures at the beginning allow the algorithm to explore a broad range of solutions, including sub-optimal ones. As the temperature decreases, the search gradually focuses on areas of the solution space with higher quality solutions.
 A key feature of Simulated Annealing is its ability to probabilistically accept solutions that are worse than the current one. This characteristic helps in jumping out of local optima, a common problem in many optimization algorithms. The probability of accepting worse solutions diminishes as the temperature lowers, guiding the algorithm towards convergence on a global optimum, or at least a near-optimal solution.\
 The procedure for SA-based scheduling is shown in Figure 4. We use the following settings: Initial Temperature = 600, Minimum Temperature = 0.1, Cooling Rate = 0.95, Iteration time = 40.
-
-
 ![image](https://hackmd.io/_uploads/By8FLLIw6.png)
 *Figure 4.*
 
@@ -113,13 +111,11 @@ In each iteration, we also fix the partial OS and MA sequence before time t and 
     - Δ= (+/-) 0.1/0.2/0.3/0.4/0.5 * processing time
     - [0,0.1], [0.1,0.2], [0.2,0.3], [0.3,0.4], [0.4,0.5]
 ![image](https://hackmd.io/_uploads/SJKdr8ID6.png)
-
 ![image](https://hackmd.io/_uploads/r1K0BLLwT.png)
 
 
 ### Sensitivity Analysis
 - The line chart representation of sensitivity analysis based on the variation of processing time
-
 ![image](https://hackmd.io/_uploads/Skx3BIIvT.png)
 
 

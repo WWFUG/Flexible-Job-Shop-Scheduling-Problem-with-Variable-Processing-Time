@@ -10,10 +10,10 @@ In a flexible job scheduling problem (FJSP), there are multiple stages and multi
 
 Below is a simple example of our FJSP problem, there are four jobs, job1 has 3 operations, job 2 has 2 operations, job 3 has 3 operations, job 4 has 2 operations. There are 5 machines. We have two sequence: MA (machine assignment) and JS (job sequence). For instance, in Figure 1, the above sequence represents the machine assignment of each operations, the below represents the job sequence. In figure 2, the Gantt chart is used to show the result of the example.
 
-![image](https://hackmd.io/_uploads/rJNvpS8DT.png =500x)
+![image](https://hackmd.io/_uploads/rJNvpS8DT.png)
 *Figure 1.*
 
-![image](https://hackmd.io/_uploads/H16AprUvp.png =500x)
+![image](https://hackmd.io/_uploads/H16AprUvp.png)
 *Figure 2.*
 
 
@@ -21,9 +21,9 @@ In real world problems, the processing time of each operations may be changed du
 
 ## Mathematical Model
 
-![image](https://hackmd.io/_uploads/Hk4VAHLw6.png =450x)
+![image](https://hackmd.io/_uploads/Hk4VAHLw6.png)
 
-![image](https://hackmd.io/_uploads/SymvRSUDp.png =700x)
+![image](https://hackmd.io/_uploads/SymvRSUDp.png)
 
 ![image](https://hackmd.io/_uploads/SyatRS8vT.png)
 

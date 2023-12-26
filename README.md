@@ -1,11 +1,11 @@
 # Flexible Job Shop Scheduling Problem with Variable Processing Time
 
-## Abstract
+## Motivation and Background
 
 In real scheduling problems, unexpected changes may occur frequently such as changes in task features. These changes cause deviation from primary scheduling. 
 In our report,  three heuristic models, inspired from Artificial Bee Colony algorithm, Genetic algorithm and Simulated Annealing algorithm are proposed for a dynamic flexible job-shop scheduling (DFJSP) problem. This problem consists of n jobs that should be processed by m machines and the processing time of jobs deviates from estimated times. The objective is near-optimal scheduling after any change in tasks in order to minimize the maximal completion time (Makespan). In the proposed model, first, scheduling is done according to the estimated processing times and then re-scheduling is performed after determining the exact ones considering machine set-up. In order to evaluate the performance of the proposed models, some numerical experiments are designed in small, medium and large sizes in different levels of changes in processing times and statistical results illustrate the efficiency of the proposed algorithms.	
 
-## Introduction and Problem Settings
+## Problem Settings
 
 In a flexible job scheduling problem (FJSP), there are multiple stages and multiple machines. In this optimization problem, each job consists of some related operations, thus we need to consider two sub-problems: machine assignment and operation sequence problem. Machine assignment problem allocates an operation to one of the available machines. Operation sequence problem determines the order of all operations on machines considering their relations in order to obtain a feasible and optimal solution.
 
